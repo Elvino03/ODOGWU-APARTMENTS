@@ -9,7 +9,7 @@ header>nav{
     text-align: right;
 }
 
-#slider{                /*I don't really understand how this works but I will update comments once I do*/
+#slider{
     overflow: hidden;
 }
 
