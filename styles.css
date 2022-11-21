@@ -1,18 +1,31 @@
+body{
+    background-color: black;
+}
+
 header{
     text-align: center;
     background-color: aqua;
     width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 65px;
+    padding-top: 1px;
 }
 
-header>nav{
+nav{
     background-color: darkred;
     padding: 10px;
     text-align: right;
+    margin-top: 0;
+    border-radius: 0 0 10px 10px;
+    height: 30px;
 }
 
-#slider{   
+#slider{
     overflow: hidden;
     height: 900px;
+    background-color: green;
+    margin-top: 10px;
+    border-radius: 10px;
 }
 
 #slider figure{
@@ -56,4 +69,22 @@ header>nav{
     100%{
         left: -400%;
     }
+}
+
+#writeup_1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-top: 10px;
+    background-color: red;
+}
+
+#text_1{
+    text-align: center;
+    background-color: pink;
+    width: 100%;
+}
+
+#text_1 > h1{
+    text-align: center;
 }
