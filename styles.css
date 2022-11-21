@@ -1,6 +1,7 @@
 header{
     text-align: center;
     background-color: aqua;
+    width: 100%;
 }
 
 header>nav{
@@ -9,8 +10,9 @@ header>nav{
     text-align: right;
 }
 
-#slider{
+#slider{   
     overflow: hidden;
+    height: 900px;
 }
 
 #slider figure{
@@ -26,7 +28,7 @@ header>nav{
     width: 20%;
 }
 
-@keyframes slider {
+@keyframes slider {  /*Slider mechanics, didn't really understand, would elaborate when I do*/
     0%{
         left: 0;
     }
