@@ -71,11 +71,12 @@ nav{
     }
 }
 
-#writeup_1{
+#writeup_1{ /*details of the first div after the slider*/
     width: 100%;
     height: 500px;
     display: flex;
     margin-top: 10px;
+    border: white solid 1px;
     background-color: red;
 }
 
@@ -86,5 +87,23 @@ nav{
 }
 
 #text_1 > h1{
+    text-align: center;
+}
+
+#writeup_2{ /*details of the second div after the slider*/
+    width: 100%;
+    height: 500px;
+    display: flex;
+    border: white solid 1px;
+    background-color: red;
+}
+
+#text_2{
+    text-align: center;
+    background-color: pink;
+    width: 100%;
+}
+
+#text_2 > h1{
     text-align: center;
 }
