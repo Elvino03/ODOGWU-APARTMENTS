@@ -77,7 +77,6 @@ nav{
     display: flex;
     margin-top: 10px;
     border: white solid 1px;
-    background-color: red;
 }
 
 #w1{
@@ -99,7 +98,6 @@ nav{
     height: 300px;
     display: flex;
     border: white solid 1px;
-    background-color: red;
 }
 
 #w2{
@@ -121,7 +119,6 @@ nav{
     height: 300px;
     display: flex;
     border: white solid 1px;
-    background-color: red;
 }
 
 #w3{
@@ -136,4 +133,16 @@ nav{
 
 #text_3 > h1{
     text-align: center;
+}
+
+button{
+    margin: 10px 0 0 750px;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+button:hover { /*The button turns pink once the pointer hovers over it*/
+    background-color: pink;
+    color: white;
 }
