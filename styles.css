@@ -159,6 +159,8 @@ button:hover { /*The button turns pink once the pointer hovers over it*/
 
 footer{
     background-color: pink;
+    display: flex;
+    justify-content: center;
 }
 #footer_1{
     background-color: white;
